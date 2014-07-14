@@ -1,6 +1,6 @@
 hubot_box
 ======================
-Vagrant上でHUBOTを気軽に試すために作った。  
+Vagrant上でHubotを気軽に試すために作った。  
 HipChatとの連携も可。
 
 環境
@@ -11,7 +11,7 @@ redis-commander
 Node.js  
 CoffeeScript  
 Apache  
-HUBOT  
+Hubot
 hubot-hipchat  
 
 
@@ -64,5 +64,5 @@ $ bin/hubot -a hipchat
 
 その他
 ------
-Apacheとredis-commanderをいれているので、Redisの中身を覗きたいときは
+Apacheと[redis-commander](http://joeferner.github.io/redis-commander/)をいれているので、Redisの中身を覗きたいときは
 使用すると便利。
